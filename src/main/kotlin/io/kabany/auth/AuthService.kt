@@ -17,7 +17,7 @@ import java.time.Duration
 @ApplicationScoped
 object AuthService {
 
-  private val FIRST_JWT_SECRET = "ThisIsASuperSecret"
+  private val FIRST_JWT_SECRET = "ThisIsAVeryLongStringToAlignWithTheIDX10720RequirementForDotNetWebApps"
   private val gson = Gson()
 
   fun createJwtFromString(message: String): String {
